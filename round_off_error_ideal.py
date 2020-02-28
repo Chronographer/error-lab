@@ -33,7 +33,7 @@ plt.legend()
 plt.xlabel("n")
 plt.ylabel("absolute relative error")
 plt.suptitle("Absolute relative error between\nmath library and manual calculation of exponential")
-#plt.yscale('log')
+plt.yscale('log')
 #plt.xscale('log')
 
 plt.show()
